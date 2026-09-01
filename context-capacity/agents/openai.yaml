@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context Capacity"
+  short_description: "Check token load and remaining context capacity"
+  default_prompt: "Use $context-capacity to report this session’s token usage, remaining context capacity, and whether I should continue, compact, or hand off."
