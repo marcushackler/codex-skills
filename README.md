@@ -4,6 +4,22 @@ Reusable skills for extending Codex with focused workflows and utilities.
 
 ## Available skills
 
+### Session Handoff
+
+Creates a focused, disposable Markdown brief for moving active work into a fresh Codex session without carrying the full conversation forward.
+
+```text
+$session-handoff
+```
+
+### Unslop Business Writing
+
+Revises, tightens, polishes, or humanizes business writing while preserving facts, commitments, approved language, and the active brand voice. It adapts to marketing, executive, product, support, and operational writing without applying mechanical anti-AI rules.
+
+```text
+$unslop-business-writing
+```
+
 ### Context Capacity
 
 Reports the active Codex session's token load and context-window capacity, then recommends whether to continue, compact, or hand off:
@@ -28,6 +44,8 @@ Copy the desired skill into your Codex skills directory:
 mkdir -p ~/.codex/skills
 cp -R codex-skills/context-capacity ~/.codex/skills/context-capacity
 ```
+
+Replace `context-capacity` with `unslop-business-writing` or `session-handoff` to install another skill.
 
 Start a new Codex session or refresh skill discovery, then invoke:
 

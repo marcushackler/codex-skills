@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unslop Business Writing"
+  short_description: "Make business writing specific, natural, and brand-aware"
+  default_prompt: "Use $unslop-business-writing to make this writing specific, natural, and appropriate for its audience while preserving facts, commitments, approved language, and brand voice."

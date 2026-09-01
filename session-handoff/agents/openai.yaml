@@ -1,0 +1,4 @@
+interface:
+  display_name: "Session Handoff"
+  short_description: "Prepare a focused brief for a fresh Codex session"
+  default_prompt: "Use $session-handoff to prepare the active work for a new Codex session with a focused disposable handoff."
